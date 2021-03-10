@@ -11,9 +11,9 @@ function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
   const x = document.getElementById("darkmode");
-  if (x.innerHTML === "Dark Mode") {
-    x.innerHTML = "Light Mode";
+  if (x.innerHTML === "Turn on dark mode.") {
+    x.innerHTML = "Turn on light mode.";
   } else {
-    x.innerHTML = "Dark Mode";
+    x.innerHTML = "Turn on dark mode.";
   }
 }
