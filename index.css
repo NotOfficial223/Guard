@@ -1,12 +1,10 @@
-body
-{
+body {
   text-align: center;
   background-color: whitesmoke;
   color: black;
   font-family: Courier New;
 }
-.dark-mode
-{
+.dark-mode {
   background-color: black;
   color: silver;
   font-family: Courier New;
@@ -38,70 +36,57 @@ body
   background-color: #ddd;
   color: black;
 }
-#dark-mode
-{
+#dark-mode {
   background-color: black;
   color: silver;
   border: transparent;
   font-family: Courier New;
 }
-.help-command
-{
+.help-command {
   text-align: center;
   font-weight: bolder;
 }
-.avatar-command
-{
+.avatar-command {
   text-align: center;
   font-weight: bolder;
 }
-.ban-command
-{
+.ban-command {
   text-align: center;
   font-weight: bolder;
 }
-.kick-command
-{
+.kick-command {
   text-align: center;
   font-weight: bolder;
 }
-.lockdown-command
-{
+.lockdown-command {
   text-align: center;
   font-weight: bolder;
 }
-.clear-command
-{
+.clear-command {
   text-align: center;
   font-weight: bolder;
 }
-.emoji-command
-{
+.emoji-command {
   text-align: center;
   font-weight: bolder;
 }
-.mute-command
-{
+.mute-command {
   text-align: center;
   font-weight: bolder;
 }
-.unmute-command
-{
+.unmute-command {
   text-align: center;
   font-weight: bolder;
 }
-.nuke-command
-{
+.nuke-command {
   text-align: center;
   font-weight: bolder;
 }
-.jail-command
-{
+.jail-command {
   text-align: center;
   font-weight: bolder;
 }
-.unjail-command
-{
+.unjail-command {
   text-align: center;
   font-weight: bolder;
 }
@@ -109,5 +94,25 @@ body
   height: 6px;
   background-color: black;
   width: 200px;
+  margin: 8px auto;
+}
+#invite {
+  width: 205px;
+  height: 300;
+}
+#invite:hover {
+  width: 250px;
+}
+#support {
+  width: 250px;
+  height: 300;
+}
+#support:hover {
+  width: 295px;
+}
+.white-line {
+  height: 2px;
+  background-color: whitesmoke;
+  width: 1263px;
   margin: 8px auto;
 }
