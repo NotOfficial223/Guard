@@ -120,3 +120,7 @@ body {
   width: 1263px;
   margin: 8px auto;
 }
+.dark:hover
+{
+  cursor: pointer;
+}
